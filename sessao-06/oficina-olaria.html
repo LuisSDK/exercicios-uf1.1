@@ -124,7 +124,7 @@
 
             <p>
               <label for="nome">Nome completo:</label>
-              <input type="text" id="nome" name="nome" required>
+              <input type="text" id="nome" name="nome" required autofocus>
             </p>
 
             <p>
@@ -136,6 +136,11 @@
               <label for="telemovel">Telemóvel:</label>
               <input type="tel" id="telemovel" name="telemovel">
             </p>
+
+            <p>
+              <label for="codigo">Código de formando (atribuído pela oficina):</label>
+              <input type="text" id="codigo" name="codigo" value="A atribuir" disabled>
+            </p>
           </fieldset>
 
           <fieldset>
@@ -144,7 +149,7 @@
             <p>
               <label for="workshop">Workshop pretendido:</label>
               <select id="workshop" name="workshop">
-                <option value="roda-oleiro">Iniciação à Roda de Oleiro</option>
+                <option value="roda-oleiro" selected>Iniciação à Roda de Oleiro</option>
                 <option value="pintura-figurado">Pintura de Figurado e Galo de Barcelos</option>
                 <option value="modelacao-manual">Modelação Manual e Escultura Livre</option>
               </select>
@@ -152,7 +157,7 @@
 
             <p>
               Regime de frequência:
-              <input type="radio" id="pos-laboral" name="regime" value="pos-laboral">
+              <input type="radio" id="pos-laboral" name="regime" value="pos-laboral" checked>
               <label for="pos-laboral">Pós-laboral</label>
 
               <input type="radio" id="fim-semana" name="regime" value="fim-semana">
