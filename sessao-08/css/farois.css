@@ -128,3 +128,43 @@ nav a {
   padding: 20px;
   margin-top: 24px;
 }
+
+/* desafio bonus - hover */
+.botao,
+nav a {
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.botao:hover {
+  background-color: #b91c1c;
+}
+
+.botao-secundario:hover {
+  background-color: #1e3a8a;
+  color: #ffffff;
+}
+
+nav a:hover {
+  color: #ffffff;
+}
+
+/* desafio bonus - cursor */
+button {
+  cursor: pointer;
+}
+
+/* desafio bonus - focus */
+input,
+select,
+textarea {
+  border: 2px solid #cbd5e1;
+  border-radius: 4px;
+  padding: 4px;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  outline: none;
+  border-color: #0284c7;
+}
