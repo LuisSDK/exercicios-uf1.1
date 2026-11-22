@@ -1,0 +1,211 @@
+/*
+  paleta - cidade e passadicos
+  cor principal (links e botoes): #0f766e
+  titulos: #0f172a
+  realce (avisos): #f59e0b
+  texto: #334155
+  texto secundario: #64748b
+  bordas: #cbd5e1
+  fundo da pagina: #f8fafc
+  fundo dos cartoes: #ffffff
+*/
+
+
+/* ===== base ===== */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, -apple-system, "Segoe UI", Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  background-color: #f8fafc;
+  color: #334155;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+
+/* ===== texto e fontes ===== */
+
+h1, h2, h3 {
+  font-family: "Poppins", "Trebuchet MS", Arial, sans-serif;
+  color: #0f172a;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin: 0 0 8px;
+}
+
+h2 {
+  font-size: 1.75rem;
+  font-weight: 600;
+  margin: 40px 0 16px;
+  border-bottom: 2px solid #cbd5e1;
+  padding-bottom: 4px;
+}
+
+h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin: 0 0 8px;
+}
+
+p {
+  font-size: 1rem;
+  margin: 0 0 12px;
+}
+
+a {
+  color: #0f766e;
+}
+
+caption {
+  color: #64748b;
+  font-size: 0.9rem;
+  margin-bottom: 8px;
+}
+
+
+/* ===== cabecalho, menu e rodape ===== */
+
+header {
+  background-color: #0f172a;
+  color: #ffffff;
+  padding: 24px 16px;
+  text-align: center;
+}
+
+header h1 {
+  color: #ffffff;
+}
+
+header img {
+  border: 3px solid #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 16px 0 0;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  display: inline-block;
+  padding: 6px 12px;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+footer {
+  background-color: #0f172a;
+  color: #ffffff;
+  text-align: center;
+  padding: 16px;
+  margin-top: 40px;
+}
+
+
+/* ===== tabelas e formularios ===== */
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #ffffff;
+}
+
+th, td {
+  border: 1px solid #cbd5e1;
+  padding: 8px 12px;
+  text-align: left;
+}
+
+th {
+  background-color: #e2e8f0;
+}
+
+fieldset {
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  margin: 0 0 16px;
+  padding: 12px 16px;
+}
+
+legend {
+  font-weight: 600;
+  padding: 0 6px;
+}
+
+input,
+select,
+textarea {
+  padding: 6px 10px;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  font-family: inherit;
+  font-size: 1rem;
+}
+
+textarea {
+  width: 100%;
+}
+
+
+/* ===== classes ===== */
+
+.cartao {
+  background-color: #ffffff;
+  padding: 16px 20px;
+  border: 1px solid #cbd5e1;
+  border-radius: 10px;
+  margin-bottom: 16px;
+  box-shadow: 0 2px 6px rgba(15, 23, 42, 0.08);
+}
+
+.curiosidade,
+.aviso {
+  background-color: hsl(48, 100%, 96%);
+  border-left: 5px solid #f59e0b;
+  padding: 8px 16px;
+  margin-bottom: 16px;
+}
+
+.botao {
+  background-color: #0f766e;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  padding: 0.6em 1.2em;
+  font-family: inherit;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+
+/* ===== ids ===== */
+
+#formulario-sugestoes,
+#formulario-reserva {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 6px rgba(15, 23, 42, 0.08);
+}
